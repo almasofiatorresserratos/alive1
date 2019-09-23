@@ -1,0 +1,6 @@
+print ("PROBLEMA NÚMERO 1:")
+print ("hola")
+print ("Dime el año en que naciste, por favor.")
+fecha = int (input (""))
+edad = 2019 - fecha
+print  (f"Tienes {edad} años.")

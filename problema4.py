@@ -1,0 +1,22 @@
+print ("PROBLEMA NÚMERO 4:")
+print (" ")
+print ("hola")
+print ("Aquí te ayudaré a calcular el área de un terreno que tiene la siguiente forma:")
+print ("  |-")
+print ("  |      -")
+print ("  |           -")
+print ("  |                -")
+print ("A |                 | ")
+print ("  |                 |  C")
+print ("  |                 | ")
+print ("  -------------------")
+print ("           B")
+print ("Tú deberás decirme las medidas de cada lado en cm. para poder sacar el área.")
+print (" ")
+ladoA = int (input("Dime la medida del lado A, por favor: "))
+ladoB = int (input("Dime la medida del lado B, por favor: "))
+ladoC = int (input("Dime la medida del lado C, por favor: "))
+área1 = (ladoA / 2) * ladoB
+área2 = (ladoA / 2) * ladoB / 2
+total = área1 + área2
+print (f"El área de la figura mide {total} cm.")

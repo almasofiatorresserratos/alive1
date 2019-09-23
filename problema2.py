@@ -1,0 +1,7 @@
+print ("PROBLEMA NÚMERO 2:")
+print ("hola")
+print ("En esta tienda damos un 15% de descuento en TODAS TUS COMPRAS")
+print ("Dime cuánto dinero es el precio de tu compra, por favor.")
+precio = int (input(""))
+total = precio - (precio * .15)
+print (f"En total vas a pagar $ {total} pesos.")
