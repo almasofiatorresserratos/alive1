@@ -1,0 +1,7 @@
+print ("PROBLEMA 6")
+print ("Level 5")
+print (" ")
+print ("En este programa te ayudaré a encontrar el medio de tres números que ingrese.")
+num1 = int(input("Por favor, ingrese un número: "))
+num2 = int(input("Por favor, ingrese otro número: "))
+num3 = int(input("Por favor, ingrese un número más: "))

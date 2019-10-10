@@ -1,0 +1,16 @@
+print ("Level 5")
+print ("PROBLEMA 2")
+print (" ")
+print ("En este programa te diré si dos letras están en órden alfabético")
+letra1 = str(input("Escriba una letra: "))
+letra2 = str(input("Escriba otra letra: "))
+
+
+if letra1 > letra2 :
+  print ("Las letras no están en órden alfabético.")
+
+elif letra1 == letra2 :
+  print ("Las letras son iguales")
+
+else:
+    print ("Las letras sí están en orden alfabético.")

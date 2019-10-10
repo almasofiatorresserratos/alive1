@@ -1,0 +1,14 @@
+print ("PROBLEMA 4")
+print ("Level 5")
+print (" ")
+print ("En este programa convertiré una calificación que ingreses a formato USA.")
+cali = int(input("Por favor, ingrese una calificación del 0 al 10 sin usar decimales: "))
+
+if cali == 10 :
+    print ("En formato USA, la calificación equivalente a A+")
+elif cali > 8 or cali == 9 :
+    print ("En formato USA, la calificación es equivalente a A.")
+elif cali == 8 or cali == 7 :
+    print ("En formato USA, la calificación es equivalente a B.")
+elif cali < 7 :
+    print ("En formato USA, la calificación es equivalente a C.")

@@ -1,6 +1,16 @@
-print ("PROBLEMA NÚMERO 1:")
-print ("hola")
+"""print ("PROBLEMA NÚMERO 1:")
+print (" ")
+print ("En este programa te diré cuántos años tienes.")
 print ("Dime el año en que naciste, por favor.")
 fecha = int (input (""))
 edad = 2019 - fecha
 print  (f"Tienes {edad} años.")
+"""
+
+
+def edad(fecha):
+  edad = 2019 - fecha
+  return edad
+
+fecha = int(input("¿En que año naciste? "))
+print (edad(fecha))

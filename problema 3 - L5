@@ -1,0 +1,15 @@
+print ("Level 5")
+print ("PROBLEMA 3")
+print (" ")
+print ("En este programa te diré qué número es mayor de tres que me digas.")
+n1 = int(input("Ingrese un número, por favor: "))
+n2 = int(input("Ingrese otro número, por favor: "))
+n3 = int(input("Ingrese un número más, por favor: "))
+
+if n1 > n2 :
+    if n1 > n3 :
+        print ("El primer número es el mayor de todos.")
+elif n2 > n3 :
+        print ("El segundo número es el mayor de todos.")
+else:
+    print ("El tercer número es el mayor de todos.")
